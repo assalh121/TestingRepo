@@ -1,5 +1,5 @@
 {
-  "name": "testPackageCl",
+  "name": "test-package-cl",
   "version": "1.0.0",
   "description": "package publish test",
   "main": "index.js",
