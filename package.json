@@ -1,11 +1,9 @@
 {
   "name": "test-package-cl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "package publish test",
   "main": "index.js",
   "types": "lib/index.d.ts",
-
-
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -17,15 +15,13 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-
-
-
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/assalh121/TestingRepo.git"
   },
-  "keywords": ["hello"],
+  "keywords": [
+    "hello"
+  ],
   "author": "A.M",
   "license": "ISC",
   "bugs": {
