@@ -43,5 +43,6 @@
   "files": [
     "lib/",
     "index.js"
-  ]
+  ],
+  "publishConfig":{"registry":"https://artifacts.rd.consafe1.org/artifactory/api/npm/npm-local/"}
 }
