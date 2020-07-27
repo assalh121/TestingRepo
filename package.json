@@ -4,9 +4,7 @@
   "description": "package publish test",
   "main": "index.js",
   "types": "lib/index.d.ts",
-  "publishConfig": {
-    "registry": "https://artifacts.rd.consafe1.org/artifactory/api/npm/npm-local/"
-  },
+
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
